@@ -1,5 +1,5 @@
 {
-  "name": "camunda-plugin-bpmnlint",
+  "name": "bpmnlint-plugin-camunda",
   "version": "0.1.0",
   "description": "Camunda modeling guidelines, packed as a bpmnlint plug-in",
   "main": "index.js",
