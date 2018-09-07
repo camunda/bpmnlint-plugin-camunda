@@ -1,0 +1,25 @@
+{
+  "name": "camunda-plugin-bpmnlint",
+  "version": "0.0.0",
+  "description": "Camunda modeling guidelines, packed as a bpmnlint plug-in",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'test/rules/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/camunda/bpmnlint-plugin-camunda.git"
+  },
+  "keywords": [
+    "camunda",
+    "bpmn",
+    "bpmnlint",
+    "lint-rules",
+    "bpmnlint-plugin"
+  ],
+  "author": {
+    "name": "Nico Rehwaldt",
+    "url": "https://github.com/nikku"
+  },
+  "license": "MIT"
+}
