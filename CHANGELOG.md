@@ -6,5 +6,9 @@ All notable changes to [bpmnlint-plugin-camunda](https://github.com/bpmn-io/bpmn
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.1.0
+
+_Initial release._
+
 * `FEAT`: add `avoid-lanes` rule
 * `FEAT`: add `camunda:recommended` configuration
