@@ -4,6 +4,7 @@
   "description": "Camunda modeling guidelines, packed as a bpmnlint plug-in",
   "main": "index.js",
   "scripts": {
+    "all": "npm test",
     "test": "mocha 'test/**/*.js'"
   },
   "repository": {
