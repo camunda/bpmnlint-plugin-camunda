@@ -24,8 +24,11 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "bpmnlint": "^3.0.0",
+    "bpmnlint": "^5.0.0",
     "chai": "^4.1.2",
     "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "bpmnlint-utils": "^1.0.1"
   }
 }
