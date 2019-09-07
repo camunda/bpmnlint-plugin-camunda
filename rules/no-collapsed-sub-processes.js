@@ -13,7 +13,7 @@ module.exports = function() {
 
       const bpmnElement = node.bpmnElement;
 
-      if (is(bpmnElement, 'bpmn:SubProcess') && node.isExpanded === false) {
+      if (is(bpmnElement, 'bpmn:SubProcess') && !node.isExpanded) {
         reporter.report(bpmnElement.id, 'Sub-process should be expanded');
       }
     }

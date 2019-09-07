@@ -20,6 +20,13 @@ RuleTester.verify('no-collapsed-sub-processes', noCollapsedSubProcessesRule, {
         id: 'SubProcess',
         message: 'Sub-process should be expanded'
       }
+    },
+    {
+      moddleElement: readModdle(__dirname + '/no-collapsed-sub-processes/invalid-implicit.bpmn'),
+      report: {
+        id: 'SubProcess',
+        message: 'Sub-process should be expanded'
+      }
     }
   ]
 });
