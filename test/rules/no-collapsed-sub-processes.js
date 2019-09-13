@@ -1,5 +1,3 @@
-var expect = require('chai').expect;
-
 var readModdle = require('bpmnlint/lib/testers/helper').readModdle;
 
 var RuleTester = require('bpmnlint/lib/testers/rule-tester');
