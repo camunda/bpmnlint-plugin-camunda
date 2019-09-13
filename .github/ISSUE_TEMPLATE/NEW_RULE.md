@@ -19,7 +19,8 @@ Describe how people would benefit from this modeling rule. This will be included
 
 #### Rule Details
 
-* Default notification level of the rule: `Error|Warning|Off`
+* Name: 
+* Default notification level: `error|warning|off`
 
 
 #### What alternatives did you consider? 
