@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_06jf2yl" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="3.3.0">
+  <bpmn:process id="Process_1yaunv6" isExecutable="true">
+    <bpmn:exclusiveGateway id="ExclusiveGateway_1xhpcvh">
+      <bpmn:incoming>SequenceFlow_0grc0kw</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_11dpel6</bpmn:incoming>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="Task_1q8x65b">
+      <bpmn:outgoing>SequenceFlow_0grc0kw</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="SequenceFlow_0grc0kw" sourceRef="Task_1q8x65b" targetRef="ExclusiveGateway_1xhpcvh" />
+    <bpmn:task id="Task_1f2cenk">
+      <bpmn:outgoing>SequenceFlow_11dpel6</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="SequenceFlow_11dpel6" sourceRef="Task_1f2cenk" targetRef="ExclusiveGateway_1xhpcvh" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_1yaunv6">
+      <bpmndi:BPMNShape id="ExclusiveGateway_1xhpcvh_di" bpmnElement="ExclusiveGateway_1xhpcvh" isMarkerVisible="true">
+        <dc:Bounds x="315" y="135" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_1q8x65b_di" bpmnElement="Task_1q8x65b">
+        <dc:Bounds x="160" y="120" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0grc0kw_di" bpmnElement="SequenceFlow_0grc0kw">
+        <di:waypoint x="260" y="160" />
+        <di:waypoint x="315" y="160" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Task_1f2cenk_di" bpmnElement="Task_1f2cenk">
+        <dc:Bounds x="160" y="240" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_11dpel6_di" bpmnElement="SequenceFlow_11dpel6">
+        <di:waypoint x="260" y="280" />
+        <di:waypoint x="340" y="280" />
+        <di:waypoint x="340" y="185" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
