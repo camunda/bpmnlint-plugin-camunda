@@ -7,7 +7,8 @@
     "all": "run-s lint test",
     "lint": "eslint .",
     "dev": "npm test -- --watch",
-    "test": "mocha 'test/**/*.js'"
+    "test": "mocha 'test/**/*.js'",
+    "generate-docs-images": "npx @bpmn-io/bpmnlint-generate-docs-images ."
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@bpmn-io/bpmnlint-generate-docs-images": "^0.2.0",
     "bpmnlint": "^6.1.1",
     "chai": "^4.1.2",
     "eslint": "^6.3.0",
