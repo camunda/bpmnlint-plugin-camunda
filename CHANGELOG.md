@@ -8,7 +8,10 @@ ___Note:__ Yet to be released changes appear here._
 
 ## 0.4.0
 
+* `FEAT`: add `forking-conditions` rule
 * `FEAT`: add `no-collapsed-sub-processes` rule
+* `DOCS`: document all rules
+* `FIX`: handle missing `isExpanded` attribute when checking `no-collapsed-sub-processes` rule
 
 ## 0.3.0
 
