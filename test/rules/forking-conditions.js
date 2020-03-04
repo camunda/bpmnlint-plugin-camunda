@@ -15,6 +15,9 @@ RuleTester.verify('forking-conditions', forkingConditionsRule, {
     },
     {
       moddleElement: readModdle(__dirname + '/forking-conditions/valid-join.bpmn')
+    },
+    {
+      moddleElement: readModdle(__dirname + '/forking-conditions/valid-no-condition-after-merge.bpmn')
     }
   ],
   invalid: [
