@@ -6,6 +6,10 @@ All notable changes to [bpmnlint-plugin-camunda](https://github.com/bpmn-io/bpmn
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.4.1
+
+* `FIX`: correct `forking-conditions` after merging gateway
+
 ## 0.4.0
 
 * `FEAT`: add `forking-conditions` rule
