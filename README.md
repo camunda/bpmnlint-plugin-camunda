@@ -1,6 +1,6 @@
 # bpmnlint-plugin-camunda
 
-[![Build Status](https://travis-ci.com/camunda/bpmnlint-plugin-camunda.svg?branch=master)](https://travis-ci.com/camunda/bpmnlint-plugin-camunda)
+[![CI](https://github.com/camunda/bpmnlint-plugin-camunda/workflows/CI/badge.svg)](https://github.com/camunda/bpmnlint-plugin-camunda/actions?query=workflow%3ACI)
 
 Camunda modeling guidelines, packed as a [bpmnlint](https://github.com/bpmn-io/bpmnlint) plug-in.
 
