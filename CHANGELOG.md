@@ -6,6 +6,10 @@ All notable changes to [bpmnlint-plugin-camunda](https://github.com/bpmn-io/bpmn
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.5.0
+
+* `CHORE`: update to `bpmnlint@7`
+
 ## 0.4.2
 
 * `CHORE`: do not publish `.github` folder
