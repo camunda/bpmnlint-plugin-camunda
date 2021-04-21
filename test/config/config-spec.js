@@ -1,4 +1,4 @@
-const entry = require('..');
+const entry = require('../..');
 
 const expect = require('chai').expect;
 
