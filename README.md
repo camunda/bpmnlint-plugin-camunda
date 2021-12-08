@@ -25,6 +25,11 @@ Add the plug-in via your `.bpmnlintrc` file:
 * [Issues](https://github.com/camunda/bpmnlint-plugin-camunda/issues)
 
 
+## See also
+
+Checkout the [camunda-compat](https://github.com/camunda/bpmnlint-plugin-camunda-compat) plug-in to validate a BPMN 2.0 diagram for Camunda version compatibility.
+
+
 ## License
 
 MIT
