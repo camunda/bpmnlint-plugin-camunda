@@ -6,6 +6,8 @@ All notable changes to [bpmnlint-plugin-camunda](https://github.com/bpmn-io/bpmn
 
 ___Note:__ Yet to be released changes appear here._
 
+* `CHORE`: remove `no-collapsed-sub-processes` rule. bpmn-js@9 supports collapsed sub-processes
+
 ## 0.5.0
 
 * `CHORE`: update to `bpmnlint@7`

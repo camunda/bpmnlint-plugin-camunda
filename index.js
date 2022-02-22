@@ -4,7 +4,6 @@ module.exports = {
       rules: {
         'camunda/avoid-lanes': 'warn',
         'camunda/forking-conditions': 'error',
-        'camunda/no-collapsed-sub-processes': 'error',
         'camunda/implementation': 'warning'
       }
     }
