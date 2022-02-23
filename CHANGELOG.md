@@ -6,6 +6,9 @@ All notable changes to [bpmnlint-plugin-camunda](https://github.com/bpmn-io/bpmn
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.6.0
+
+* `FEAT`: add `implementation` rule
 * `CHORE`: remove `no-collapsed-sub-processes` rule. Camunda Platform 7.17 supports collapsed sub-processes
 
 ## 0.5.0
