@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_1n0iv59" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="4.7.0-rc.0" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.14.0">
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_1n0iv59" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.11.0" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.19.0">
   <bpmn:process id="Process_13zigrv" isExecutable="true">
     <bpmn:startEvent id="StartEvent_1">
       <bpmn:outgoing>Flow_09ekp66</bpmn:outgoing>
@@ -30,29 +30,16 @@
       <bpmn:messageEventDefinition id="EndEventMessageEventDefinition" />
     </bpmn:endEvent>
     <bpmn:sequenceFlow id="Flow_1u3934i" sourceRef="MessageIntermediateThrowEvent" targetRef="EndEvent" />
+    <bpmn:serviceTask id="WITH_EXTENSION_ELEMENTS" name="With extension elements">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="a">10</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+    </bpmn:serviceTask>
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_13zigrv">
-      <bpmndi:BPMNEdge id="Flow_053ts3i_di" bpmnElement="Flow_053ts3i">
-        <di:waypoint x="640" y="120" />
-        <di:waypoint x="692" y="120" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_09ekp66_di" bpmnElement="Flow_09ekp66">
-        <di:waypoint x="188" y="120" />
-        <di:waypoint x="240" y="120" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_0qx3bcu_di" bpmnElement="Flow_0qx3bcu">
-        <di:waypoint x="490" y="120" />
-        <di:waypoint x="540" y="120" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_0txk02u_di" bpmnElement="Flow_0txk02u">
-        <di:waypoint x="340" y="120" />
-        <di:waypoint x="390" y="120" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_1u3934i_di" bpmnElement="Flow_1u3934i">
-        <di:waypoint x="728" y="120" />
-        <di:waypoint x="772" y="120" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
         <dc:Bounds x="152" y="102" width="36" height="36" />
       </bpmndi:BPMNShape>
@@ -71,6 +58,29 @@
       <bpmndi:BPMNShape id="Event_0vscxed_di" bpmnElement="EndEvent">
         <dc:Bounds x="772" y="102" width="36" height="36" />
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0su3999_di" bpmnElement="WITH_EXTENSION_ELEMENTS">
+        <dc:Bounds x="390" y="200" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_0txk02u_di" bpmnElement="Flow_0txk02u">
+        <di:waypoint x="340" y="120" />
+        <di:waypoint x="390" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0qx3bcu_di" bpmnElement="Flow_0qx3bcu">
+        <di:waypoint x="490" y="120" />
+        <di:waypoint x="540" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_09ekp66_di" bpmnElement="Flow_09ekp66">
+        <di:waypoint x="188" y="120" />
+        <di:waypoint x="240" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_053ts3i_di" bpmnElement="Flow_053ts3i">
+        <di:waypoint x="640" y="120" />
+        <di:waypoint x="692" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1u3934i_di" bpmnElement="Flow_1u3934i">
+        <di:waypoint x="728" y="120" />
+        <di:waypoint x="772" y="120" />
+      </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
 </bpmn:definitions>
