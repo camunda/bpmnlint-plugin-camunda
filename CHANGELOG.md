@@ -6,6 +6,10 @@ All notable changes to [bpmnlint-plugin-camunda](https://github.com/bpmn-io/bpmn
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.6.1
+
+* `FIX`: correctly handle extension elements in `implementation` rule ([#24](https://github.com/camunda/bpmnlint-plugin-camunda/issues/24))
+
 ## 0.6.0
 
 * `FEAT`: add `implementation` rule
