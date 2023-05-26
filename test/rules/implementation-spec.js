@@ -28,19 +28,19 @@ RuleTester.verify('implementation', implementation, {
           message: 'Implementation is missing'
         },
         {
-          category: 'error',
           id: 'IntermediateThrowEventMessageEventDefinition',
-          message: 'Implementation is missing'
+          message: 'Implementation is missing',
+          category: 'error'
         },
         {
-          category: 'error',
           id: 'EndEventMessageEventDefinition',
-          message: 'Implementation is missing'
+          message: 'Implementation is missing',
+          category: 'error'
         },
         {
-          category: 'error',
           id: 'WITH_EXTENSION_ELEMENTS',
-          message: 'Implementation is missing'
+          message: 'Implementation is missing',
+          category: 'error'
         }
       ]
     }
