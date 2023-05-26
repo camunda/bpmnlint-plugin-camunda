@@ -32,8 +32,8 @@
     "bpmnlint": "^8.2.0",
     "camunda-bpmn-moddle": "^7.0.1",
     "chai": "^4.3.4",
-    "eslint": "^7.24.0",
-    "eslint-plugin-bpmn-io": "^0.12.0",
+    "eslint": "^8.41.0",
+    "eslint-plugin-bpmn-io": "^1.0.0",
     "mocha": "^10.2.0",
     "npm-run-all": "^4.1.5"
   },
