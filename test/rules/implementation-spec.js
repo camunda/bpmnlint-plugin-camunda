@@ -36,6 +36,11 @@ RuleTester.verify('implementation', implementation, {
           category: 'error',
           id: 'EndEventMessageEventDefinition',
           message: 'Implementation is missing'
+        },
+        {
+          category: 'error',
+          id: 'WITH_EXTENSION_ELEMENTS',
+          message: 'Implementation is missing'
         }
       ]
     }
