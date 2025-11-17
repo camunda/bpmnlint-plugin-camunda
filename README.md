@@ -21,7 +21,7 @@ Add the plug-in via your `.bpmnlintrc` file:
 
 ## Resources
 
-* [Documentation](https://github.com/camunda/bpmnlint-plugin-camunda/tree/master/docs/rules)
+* [Documentation](https://github.com/camunda/bpmnlint-plugin-camunda/tree/main/docs/rules)
 * [Issues](https://github.com/camunda/bpmnlint-plugin-camunda/issues)
 
 
